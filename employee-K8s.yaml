@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: springboot-employee-api-apples
-          image: pasapples/springbootemployee:multi-stage-add-layers
+          image: bigevtaylor/springbootemployee:multi-stage-add-layers
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
